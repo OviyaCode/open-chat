@@ -13,7 +13,7 @@ const App = () => {
 
       {isChatBoxOpen && (
         <div style={{zIndex:1, bottom:0, position:"absolute", background:"#f6f6f6", border:"5px solid #333", width:"300px", height:"500px"}}>
-        <p role="button" style={{cursor:"pointer", color:"#f00", display:"inline-block", padding:"10px", textAlign:"center", margin:"2px 3px", float:"right"}} onClick={handleUserNameClick}>X</p>
+        <p role="button" style={{cursor:"pointer", background:"#00f", color:"#fff",borderRadius:"50%", display:"inline-block", padding:"10px", textAlign:"center", margin:"2px 3px", float:"right"}} onClick={handleUserNameClick}>X</p>
         </div>
       )}
     </>
