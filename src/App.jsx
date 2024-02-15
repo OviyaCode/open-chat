@@ -5,6 +5,7 @@ const App = () => {
 
   const handleUserNameClick = () => {
     setIsChatBoxOpen(!isChatBoxOpen);
+    
   };
   return (
     <>
